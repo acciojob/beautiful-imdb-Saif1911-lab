@@ -1,17 +1,19 @@
 
 /* Your CSS Code here. */
 .moviePic{
-  height: auto;
-  width: 200px;
-  opacity: 10px;
-	display: flex;
+  display: block;
+  margin: auto;
+  width: 50%;
+	height: auto;
+	opacity:10px;
  
 }
 .movieDetail{
-  position: absolute;
-  top: auto;
-  width: auto;
-  text-align: center;
+  width: 50%;
   font-size: large;
-	display: "flex";
+	display: block;
+	margin:auto;
+	position:auto;
+	text-align:none;
+	top:50px;
 }
