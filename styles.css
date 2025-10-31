@@ -1,19 +1,64 @@
-
-/* Your CSS Code here. */
-.moviePic{
-  display: block;
-  margin: auto;
-  width: 50%;
-	height: auto;
-	opacity:10px;
- 
+/* Page background and layout */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-.movieDetail{
-  width: 50%;
-  font-size: large;
-	display: block;
-	margin:auto;
-	position:auto;
-	text-align:none;
-	top:50px;
+
+/* Container styling */
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Movie Title */
+.movieTitle {
+  font-size: 2rem;
+  color: #ffcc00;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+/* Movie Poster styling */
+.moviePic {
+  height: 400px;
+  width: 270px;
+  border-radius: 15px;
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.moviePic:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+/* Movie Description styling */
+.movieDetail {
+  position: relative;
+  top: 20px;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+/* Extra Info styling */
+.extra-info {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #ccc;
+}
+.extra-info p {
+  margin: 8px 0;
 }
